@@ -8,7 +8,9 @@ it uses Mixxx, a quite sophisticated application for live DJ'ing music designed 
 
 [IceCast.org](http://icecast.org/)
 
-To do so, download this project to your Windows computer and run the startup.bat file.
+Alternatively, you can use this project to set it up as automatically as I could manage.
+
+To do so, [download this project](https://github.com/liamgm/InternetRadioStation/archive/master.zip) to your Windows computer, unzip it, and run the startup.bat batch file.
 
 In general, it is *a bad idea* to run batch (.bat) files provided by strangers over the internet.
 
@@ -42,11 +44,15 @@ I'll describe how to use the latter technique, since it is more set-and-forget.
 6. Underneath that is an HTML5 audio player, plus some information about your radio station. If you press play on the radio station, you'll hear your music slightly delayed playing over the music coming out of Mixxx.
 7. If you send the url in your web browser to your class, they can access the IceCast server and listen to the radio broadcast.
 
-Some limitations to this setup:
+Some caveats to this setup:
 
 Your school's network very likely is firewalled from the public internet, meaning that the link to your server won't work for computers outside of your school or for mobile devices that aren't on the school's network. Computers in the library or elsewhere in the classroom will be able to connect.
 
 Similarly, if you run this on your home network, you can listen to your radio station from anywhere else on the home network, but your network's firewall, built into the router, will prevent anyone from outside the home network from accessing your radio station.
+
+Providing your computer's IP address to students involves exposure to some amount of risk if your computer is unsafely built, meaning that it's firewall is allowing more public access beyond what you opened for IceCast.
+
+It would be best to change the passwords for IceCast as well from the setup provided here. After [changing the passwords in the configuration/icecast.xml file](http://icecast.org/docs/icecast-2.4.1/config-file.html#authentication), you would also need to [change them in Mixxx as well](https://www.mixxx.org/manual/latest/chapters/livebroadcasting.html#id1).
 
 ## Source Code
 
