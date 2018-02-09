@@ -4,9 +4,9 @@ This is a very simple means to set up an internet radio station on Windows (64-b
 The idea is to broadcast your radio station using IceCast, a very standard streaming server for live, radio-like broadcasts. To provide audio for IceCast to stream,
 it uses Mixxx, a quite sophisticated application for live DJ'ing music designed to connect to IceCast servers like yours. You can set those two applications up yourself, their websites are:
 
-[https://mixxx.org/](MIXXX.org)}
+[MIXXX.org](https://mixxx.org/)
 
-[http://icecast.org/](IceCast.org)
+[IceCast.org](http://icecast.org/)
 
 To do so, download this project to your Windows computer and run the startup.bat file.
 
@@ -49,5 +49,7 @@ Your school's network very likely is firewalled from the public internet, meanin
 Similarly, if you run this on your home network, you can listen to your radio station from anywhere else on the home network, but your network's firewall, built into the router, will prevent anyone from outside the home network from accessing your radio station.
 
 ## Source Code
+
 [Source code for Mixxx](https://github.com/mixxxdj/mixxx)
-[ource code for IceCast](https://github.com/xiph/Icecast-Server)
+
+[Source code for IceCast](https://github.com/xiph/Icecast-Server)
